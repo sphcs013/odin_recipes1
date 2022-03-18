@@ -1,4 +1,7 @@
 # Food Finds!
-Website about recipes for the odin project done by me.
+Simple&Clean Website about recipes for the [Odin Project](https://www.theodinproject.com/) done by me.
 
 ## Skills
+I will show HTML/CSS skills that i learned on [Odin Project](https://www.theodinproject.com/). 
+
+You can see live preview [Here](#)
