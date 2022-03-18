@@ -1,0 +1,78 @@
+/*Font Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(32, 32, 32);
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+#logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#nav li, #nav ul, #nav a {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+#nav a:hover {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.active {color:white;}
+
+.mainwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 190px;
+}
+
+.lazanja {
+    background-image: url('https://www.recipetineats.com/wp-content/uploads/2017/05/Lasagne-recipe-3-main-square.jpg');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+footer, footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    height: 35px;
+    background-color: rgb(44, 44, 44)
+}
